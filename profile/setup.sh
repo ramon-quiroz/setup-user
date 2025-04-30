@@ -13,7 +13,7 @@ for archivo in "${archivos[@]}"; do
 	chmod 600 "$home/$archivo"
 done
 
-# Copiar el archivo que serivrá como pantalla inicial
+# Copiar el archivo que servirá como pantalla inicial
 echo -e "\t- Copiando: motd"
 if [ $USER = "root" ]; then
 	cp "$setup/profile/motd_inicial_user" "/etc/motd"

@@ -33,7 +33,7 @@ for etapa in "${etapas[@]}"; do
 done
 
 
-#Fin del proceso
+# Fin del proceso
 if [ $USER = "root" ]; then
 	ip_address=$(ip -o -4 addr show eth0 | awk '{print $4}' | cut -d '/' -f 1)
 	echo -e "\nUSUARIO CREADO, POR FAVOR INICIA SESIÓN DESDE PUTTY CON TU NUEVO USER PARA CONTINUAR\n\n\tUsuario: $user\n\tContraseña: Temporal123\n\tIP: $ip_address\n\tPuerto: 22\n"
