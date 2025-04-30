@@ -1,0 +1,16 @@
+	 ___           _          _                                  
+	|_ _|  _ __   (_)   ___  (_)   ___   _ __ ___     ___    ___ 
+	 | |  | '_ \  | |  / __| | |  / _ \ | '_ ` _ \   / _ \  / __|
+	 | |  | | | | | | | (__  | | |  __/ | | | | | | | (_) | \__ \
+	|___| |_| |_| |_|  \___| |_|  \___| |_| |_| |_|  \___/  |___/                                                                           
+
+	RECUERDA:
+
+		- Haber reservado una IP para este equipo.
+		- Tener listo tu nombre de usuario.
+
+	Si ya tienes todo listo ejecuta el siguiete comando:
+
+		/setup-user/setup.sh
+
+

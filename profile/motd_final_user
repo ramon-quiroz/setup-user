@@ -1,0 +1,20 @@
+	    _      _   _   _____   __  __   _____  __  __
+	   / \    | \ | | | ____| |  \/  | | ____| \ \/ /
+	  / _ \   |  \| | |  _|   | |\/| | |  _|    \  / 
+	 / ___ \  | |\  | | |___  | |  | | | |___   /  \ 
+	/_/   \_\ |_| \_| |_____| |_|  |_| |_____| /_/\_\
+
+	Bienvenido!
+
+	Estas son las utilidades pre-instaladas de las que ya puedes disponer:
+
+		- docker, docker compose
+		- git
+		- htop
+		- samba
+		- tmux
+		- vim
+
+	Sistema Base: Alpine Linux 3.21
+		      https://www.alpinelinux.org
+
