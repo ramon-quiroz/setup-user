@@ -88,6 +88,6 @@ setup-hostname "nombre-host"
 
 ## Configurando usuarios
 
-Una vez teniendo instaladas las utilidades podemos configurar nuestros usuarios ejecutando setup-user.sh desde el usuario root.
+Una vez teniendo instaladas las utilidades podemos configurar nuestros usuarios ejecutando `setup-user.sh desde el usuario root`.
 
 **NOTA:** Cada que configuramos un nuevo usuario debemos eliminar el archivo `install_checklist.log`
