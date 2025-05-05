@@ -1,7 +1,11 @@
 #!/bin/bash
 
+# Declarar rutas de los scripts
+export script_dir=$(dirname "$(realpath "$0")")
+export setup="$script_dir"
+
 # Agregar a la sesión las variables de entorno y funciones
-source "/setup-user/env/setup.sh"
+source "$setup/env/setup.sh"
 source "$setup/functions/buscar_palabra_archivo.sh"
 
 # Validar si las variables de entorno existen

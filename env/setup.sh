@@ -12,8 +12,6 @@ fi
 # Crear las variables de entorno
 export user=$my_user
 export home="/home/$my_user"
-export script_dir=$(dirname "$(realpath "$0")")
-export setup="$script_dir/setup-user"
 export checklist="$setup/install_checklist.log"
 
 # Crear el archivo checklist en caso de que no exista
